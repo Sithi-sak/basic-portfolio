@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <main class="app">
+        <nav>
+            <div class="nav-container">
+                <button class="nav-btn" onclick="showSection('work')">
+                    <span class="nav-btn-pill">Work</span>
+                </button>
+                <button class="nav-btn" onclick="showSection('about')">
+                    <span class="nav-btn-pill">About</span>
+                </button>
+            </div>
+        </nav>
+        <!-- WORK -->
+        <div id="work" class="content-section">
+            <div>
+                <h1 class="content__section-heading">
+                    Graphic Design Work
+                </h1>
+            </div>
+
+            <div class="work__gallery">
+                <img class="scroll work__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/1tail.jpg?raw=true" alt="" />
+                <img class="scroll work__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/CarMeet.jpg?raw=true" alt="" />
+                <img class="scroll work__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/Crumbling%20Farum%20Azula.jpg?raw=true"
+                    alt="" />
+                <img class="scroll work__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/Winter.jpg?raw=true" alt="" />
+                <img class="scroll work__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/Shenron.jpg?raw=true" alt="" />
+            </div>
+            <div>
+                <h1 class="content__section-heading">
+                    Website Mockup Design
+                </h1>
+            </div>
+            <div class="mockup__gallery">
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Home%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_About%20Us%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Contact%20Us%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Product%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Product%20Detail%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Cart%20Page.jpg?raw=true"
+                    alt="" />
+                <img class="scroll mockup__gallery-img"
+                    src="https://github.com/Sithi-sak/static-images/raw/main/images/pethaven_Checkout%20Page.jpg?raw=true"
+                    alt="" />
+            </div>
+            <!-- Add more work content here -->
+        </div>
+
+        <div id="about" class="content-section" style="display: none">
+            <div class="about-icon">
+                <i class="fa-solid fa-code fa-beat" style="color: #fc6469"></i>
+            </div>
+            <div class="greeting-tab">
+                Hello 👋, I'm a beginner developer based in Cambodia!
+            </div>
+            <div class="about__me">
+                <h2 class="about__me-heading">Leak Sithisak</h2>
+                <p class="about__me-short">
+                    Digital Hobbyist ( Artist / Developer / Designer )
+                </p>
+                <p class="about__me-info">
+                    I'm a Second year student at
+                    <span class="bold">
+                        Limkokwing University of Creative Technology
+                    </span>
+                    with a passion for creating websites and design concept.
+                    Tinkering with technology is my hobby and when not
+                    online, I go off into my zone brainstorming design ideas
+                    for my next concept.
+                </p>
+                <h3 class="bio-heading">Bio</h3>
+                <br />
+                <div class="bio-timeline">
+                    <div class="timeline">
+                        <span class="bold timeline-year">2004</span>
+                        <p class="timeline-content">
+                            Born in Cambodia
+                        </p>
+                    </div>
+                    <div class="timeline">
+                        <span class="bold timeline-year">2022</span>
+                        <p>
+                            Graduated from Cambodia Adventist International
+                            School
+                        </p>
+                    </div>
+                    <div class="timeline">
+                        <span class="bold timeline-year">2024 to present</span>
+                        <p class="timeline-content">
+                            Studying at Limkokwing University of Creative
+                            Technology
+                        </p>
+                    </div>
+                </div>
+                <h3 class="social-heading">Socials</h3>
+                <br />
+                <a href="https://github.com/Sithi-sak" target="_blank" rel="noopener noreferrer">
+                    <button class="social__links">
+                        <span class="social__links-icon">
+                            <li class="fa-brands fa-github" style="color: #fc6469"></li>
+                        </span>
+                        @sithi-sak
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <button class="social__links">
+                        <span class="social__links-icon"><i class="fa-brands fa-linkedin"
+                                style="color: #fc6469"></i></span>
+                        @Sithisak Leak
+                    </button>
+                </a>
+            </div>
+
+            <div id="cards">
+                <div class="techstack-heading">
+                    <h2>Techstack</h2>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>HTML5</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>CSS</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Javascript</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="techstack-heading">
+                    <h2>Currently learning</h2>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>PHP</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Laravel</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="techstack-heading">
+                    <h2>Familiar with</h2>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>C++</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Python</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>React</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Typescript</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Tailwind CSS</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Next.js</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Java</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="card-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Bootstrap 5</h3>
+                                    <div class="ratings">
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #fc6469"></i>
+                                        <i class="fa-solid fa-bug" style="color: #dbd5c9"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            &copy; 2024 Leak Sithisak. All Rights Reserved.
+        </footer>
+    </main>
+</body>
+
+</html>
