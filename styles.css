@@ -333,7 +333,6 @@ nav {
 .card {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  cursor: pointer;
   display: flex;
   height: 260px;
   flex-direction: column;
